@@ -102,13 +102,13 @@ h2 {
   color: #fff;
   padding: 14px 32px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 24px; /* More rounded edges */
   font-weight: bold;
   font-size: 1.1em;
   margin-top: 18px;
   box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
   transition: background 0.3s, transform 0.2s;
-  border: #FFF7E1; /* White */
+  border: 4px solid #FFF7E1; /* Thicker border */
   cursor: pointer;
 }
 
