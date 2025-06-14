@@ -148,11 +148,49 @@ section {
   margin-right: 10px; /* Space to the right of the logo */
 }
 
-/* 
-  Media Queries for Responsive Design
-  Media queries help make your website look good on different screen sizes,
-  like phones (small screens) and computers (large screens).
-*/
+/* Responsive headline section container */
+.responsive-headline-container {
+  max-width: 520px;
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Add a little padding for mobile */
+  padding: 0 8px;
+}
+
+@media (max-width: 900px) {
+  .responsive-headline-container {
+    max-width: 90vw;
+    padding: 0 4vw;
+  }
+  .responsive-headline-container h1 {
+    font-size: 3rem !important;
+  }
+  .responsive-headline-container h2 {
+    font-size: 1.3rem !important;
+  }
+  .responsive-headline-container p {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-headline-container {
+    max-width: 100vw;
+    padding: 0 2vw;
+  }
+  .responsive-headline-container h1 {
+    font-size: 2rem !important;
+  }
+  .responsive-headline-container h2 {
+    font-size: 1rem !important;
+  }
+  .responsive-headline-container p {
+    font-size: 1rem !important;
+  }
+}
 
 /* This media query applies styles when the screen is 600px wide or less (like on most phones) */
 @media (max-width: 600px) {
