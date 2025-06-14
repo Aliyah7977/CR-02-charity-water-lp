@@ -32,14 +32,8 @@ body {
   color: #222;
 }
 
-/* Add a slight shadow and rounded corners to each section for depth */
-section {
-  background: #fff; /* White background for sections */
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.07); /* Soft blue shadow */
-  margin: 24px 10px; /* Space between sections */
-  padding: 24px 16px;
-}
+
+
 
 /* Hero Section Styles */
 .hero {
@@ -50,7 +44,7 @@ section {
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
   color: #fff;                 /* White text for contrast */
-  text-align: center;          /* Center the text */
+  text-align: left;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
 
@@ -76,13 +70,6 @@ section {
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
-/* Story Section Styles */
-.story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
-  color: #222;
-  text-align: center;
-  padding: 30px 20px;
-}
 
 /* Add accent color to section headings */
 h2 {
@@ -111,7 +98,7 @@ h2 {
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
+  background-color:  #BF6C46; /* Orange */
   color: #fff;
   padding: 14px 32px;
   text-decoration: none;
@@ -121,13 +108,13 @@ h2 {
   margin-top: 18px;
   box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
   transition: background 0.3s, transform 0.2s;
-  border: none;
+  border: #FFF7E1; /* White */
   cursor: pointer;
 }
 
 /* Change button color when hovered */
 .donate-button:hover {
-  background-color: #159A48; /* Dark Green */
+  background-color: #BF6C46; /* Orange */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
