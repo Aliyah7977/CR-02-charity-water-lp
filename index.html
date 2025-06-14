@@ -5,8 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charity Water Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Simple sticky navbar styles for beginners */
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 24px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+            z-index: 100;
+        }
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-logo img {
+            height: 40px; /* Logo height */
+            margin-right: 10px;
+        }
+        .navbar-links a {
+            color: #222;
+            text-decoration: none;
+            margin-left: 24px;
+            font-family: 'Proxima Nova', Arial, sans-serif;
+            font-size: 1.1rem;
+        }
+        .navbar-links a:hover {
+            color: #FFC907;
+        }
+    </style>
 </head>
 <body>
+    <!-- Sticky Navbar at the top -->
+    <nav class="navbar">
+        <!-- Logo area on the left -->
+        <div class="navbar-logo">
+            <!-- Beginner tip: This is the logo image. Make sure the file name matches exactly! -->
+            <img src="charity water logo.png" alt="Charity Water Logo" style="height:32px; margin-right:8px;">
+            <!-- The logo is on the left, no brand text needed here -->
+        </div>
+        <!-- Navigation links on the right -->
+        <div class="navbar-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Donate</a>
+        </div>
+    </nav>
+
     <!-- Main headline section -->
     <section>
         <!-- Headline: Left aligned, "Change" is bold and yellow -->
@@ -41,6 +90,9 @@
             cursor: pointer;">
             Donate Today
         </a>
+    </section>
+</body>
+</html>
     </section>
 </body>
 </html>

@@ -122,6 +122,32 @@ section {
   margin-bottom: 20px;
 }
 
+/* Navbar styles for beginners */
+/* This makes the navbar stick to the top and puts items in a row */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  z-index: 100;
+}
+
+/* This puts the logo on the left side and centers it vertically */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* This sets the logo image size and spacing */
+.navbar-logo img {
+  height: 40px; /* Logo height */
+  margin-right: 10px; /* Space to the right of the logo */
+}
+
 /* 
   Media Queries for Responsive Design
   Media queries help make your website look good on different screen sizes,
