@@ -39,8 +39,7 @@ body {
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image:;
-  background-size: cover;      /* Make the image cover the whole area */
+   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
   color: #fff;                 /* White text for contrast */
