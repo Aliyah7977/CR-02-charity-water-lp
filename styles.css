@@ -111,12 +111,10 @@ h2 {
   cursor: pointer;
 }
 
-/* When you hover over the donate button, 
-   the background color changes and the button gets a little bigger */
+/* Change button color when hovered */
 .donate-button:hover {
-  background-color: #FFF7E1; /* Light background on hover */
-  color: #BF6C46; /* Change text color for contrast */
-  transform: scale(1.05); /* Slightly enlarge the button */
+  background-color: #FFF7E1; /* White */
+  transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
 /* Add some spacing between sections */
